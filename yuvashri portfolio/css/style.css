@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f4f4f9;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 1rem;
+}
+.navbar .logo { color: #fff; }
+.navbar ul { list-style: none; display: flex; }
+.navbar ul li { margin: 0 10px; }
+.navbar ul li a {
+  color: #fff; text-decoration: none; font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #0077b6;
+  color: white;
+}
+.hero .profile-pic {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.hero button {
+  padding: 10px 20px;
+  border: none;
+  background: #ff6f61;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Skills */
+.skills {
+  padding: 40px;
+  background: white;
+  text-align: center;
+}
+.skill-cards {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.card {
+  padding: 20px;
+  background: #0077b6;
+  color: white;
+  border-radius: 10px;
+  width: 180px;
+}
+
+/* Projects */
+.projects {
+  padding: 40px;
+  background: #f9f9f9;
+}
+.project {
+  margin: 20px 0;
+}
+.project img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+/* Contact */
+.contact {
+  background: #222;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+.contact input, .contact textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+}
+.contact button {
+  background: #ff6f61;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+#hosp{
+    width: 25px;
+}
+
+
+#net{
+    width: 25px;
+    height: 30px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Your Name</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .pdf-container {
+      width: 100%;
+      height: 100vh; /* Full screen height */
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">Yuva Shri</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html" class="active">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Resume PDF Viewer -->
+  <section class="resume">
+    <h1>My Resume</h1>
+    <div class="pdf-container">
+      <iframe src="images/yuvashri .pdf"></iframe>
+    </div>
+    <a href="documents/YourResume.pdf" download class="download-btn">Download Resume (PDF)</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name | Business Analyst Portfolio</p>
+  </footer>
+</body>
+</html>
